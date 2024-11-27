@@ -1,16 +1,54 @@
 body{
-    font-family:"poppins",sans-serif;
+    font-family:"poppins","sans-serif";
     background: #2e2356;
+}
+.container{
+    max-width:1400px;
+    margin:0 auto;
 }
 header{
     color:white;
     text-align: center;
-    background-image:url("images/andorra.png");
+background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
+        url("images/andorra.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding:260px 0;
+    padding:150px 0;
 }
 header h1{
     font-weight:700px;
     font-size:96px;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+header h2{
+    font-weight:900;
+    font-size:25px;
+    line-height:1;
+    margin-top:0px;
+}
+header h3{
+    font-size: 25px;
+    font-weight:900;
+    line-height:0;
+}
+header a{
+    padding:16px 32px;
+    display:inline-block;
+    font-weight:bold;
+    font-size:14px;
+    text-decoration:none;
+    background: white;
+    line-height:1;
+    color:#2e2356;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+footer{
+    text-align:center;
+    color:aliceblue;
+    padding:15px;
+}
+footer a{
+    color:aliceblue;
 }
