@@ -74,23 +74,128 @@ main{
         color:#2e2356;
         opacity:0.8;
     }
+    main a{
+        display:block;
+        font-weight:bold;
+        font-size:14px;
+        text-decoration:none;
+        background: rgb(70, 44, 179);
+        line-height:1;
+        color:rgb(255, 255, 255);
+font-family:"poppins","sans-serif";
+font-size: 14px;
+font-weight: 700;
+height: 21px;
+letter-spacing: 3px;
+padding: 16px;
+text-align:center;
+text-decoration:none;
+text-transform: uppercase;
+width:200px;
+    }
     .grid{
         display:grid;
         grid-gap:64px;
-       margin:0 auto; 
+       margin:0 auto;
+
     }
     .grid-2-columns{
     grid-template-columns: 1fr 1fr;
     }
     .grid-3-columns{
-    grid-template-columns:1fr 2fr 1fr;
+    grid-template-columns:1fr 1fr 1fr;
     }
     .img-responsive{
         max-width:100%;
     }
-    section{
+    main section{
         max-width:1200px;
         margin:0 auto;
+        padding:150px 0;
+    }
+    section.secondary{
+        background:rgb(248, 248, 248);
+        padding:100px;
+        margin:0 auto;
+        max-width: 1600px;
+    }
+    .text-center{
+        text-align:center;
+    }
+    h2.text-center{
+        color: rgb(39, 32, 68);
+display: block;
+font-family:"poppins","sans-serif";
+font-size:16px;
+font-weight: 700;
+letter-spacing: 5px;
+line-height: 20px;
+opacity: 0.3;
+text-align:center;
+
+
+    }
+    h3.text-center{
+color: rgb(39, 32, 68);
+display: block;
+font-family:"poppins","sans-serif";
+font-size: 40px;
+font-weight: 700;
+line-height: 60px;
+text-align:center;
+padding-bottom: 50px;
+    }
+    div.grid.grid-3-columns{
+display: grid;
+font-family:"poppins","sans-serif";
+grid-template-columns:1fr 1fr 1fr;
+grid-gap:30px;
+    }
+
+    div.card{
+background-color:rgb(255, 255, 255);
+background-image:none;
+display:block;
+font-family:"poppins","sans-serif";
+height: 770px;
+
+    }
+
+    div.card p{
+        
+color:rgb(39, 32, 68);
+display:block;
+font-family:"poppins","sans-serif";
+font-size:18px;
+font-style:normal;
+font-weight:400;
+line-height:24px;
+opacity: 0.7;
+    }
+
+    div.card h4{
+color:rgb(39, 32, 68);
+display:block;
+font-family:"poppins","sans-serif";
+font-size:25px;
+font-weight:bold;
+line-height:24px;
+    }
+    div.card-body{
+        display: block;
+        font-family:"poppins","sans-serif";
+        height: 386px;
+        padding: 30px;
+        width: 250px;
+    }
+    h5{
+        
+color: rgb(39, 32, 68);
+display: block;
+font-family:"poppins","sans-serif";
+font-size: 15px;
+font-weight: 700;
+line-height: 13px;
     }
 footer{
 
@@ -118,6 +223,7 @@ footer a{
 footer li{
     list-style: none;
 }
+
 @media(max-width:960px){
     header{
         padding:60px 0;
@@ -138,4 +244,8 @@ footer li{
     section{
         padding:30px;
     }
+    div.grid.grid-3-columns{
+        grid-template-columns:1fr;
+        grid-gap:30px;
+            }
 }
