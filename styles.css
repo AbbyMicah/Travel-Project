@@ -109,15 +109,12 @@ width:200px;
         max-width:100%;
     }
     main section{
-        max-width:1200px;
+        max-width:100%;
         margin:0 auto;
-        padding:150px 0;
+        padding:100px;
     }
     section.secondary{
         background:rgb(248, 248, 248);
-        padding:100px;
-        margin:0 auto;
-        background-size:cover;
     }
     .text-center{
         text-align:center;
@@ -250,4 +247,12 @@ footer li{
         text-align:center
             }
         
+}
+@media(min-width:960px){
+    div.grid.grid-3-columns{
+
+        grid-template-columns:1fr 1fr 1fr;
+        grid-gap:30px;
+       max-width: 400px;
+            }
 }
