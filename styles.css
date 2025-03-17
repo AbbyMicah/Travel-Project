@@ -1,5 +1,5 @@
 body{
-    font-family:"poppins","sans-serif";
+    font-family:"Montserrat","sans-serif";
     background: #2e2356;
 }
 .container{
@@ -9,20 +9,20 @@ body{
 header{
     color:white;
     text-align: center;
-background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
+background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
         url("images/andorra.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding:150px 0;
 }
 header h1{
-    font-weight:700px;
+    font-weight:600px;
     font-size:96px;
     line-height: 1;
     margin-bottom: 25px;
 }
 header h2{
-    font-weight:900;
+  
     font-size:25px;
     line-height:1;
     margin-top:0px;
@@ -68,11 +68,11 @@ main{
         text-transform:capitalize;
     }
     main p{
-        font-weight: 700;
+        
         font-size:16px;
         line-height:24px;
         color:#2e2356;
-        opacity:0.8;
+        opacity:0.9;
     }
     main a{
         display:block;
@@ -117,6 +117,8 @@ width:200px;
     }
     section.secondary{
         background:rgb(248, 248, 248);
+        background-size: cover;
+        padding:150px 0;
     }
     .text-center{
         text-align:center;
@@ -124,7 +126,7 @@ width:200px;
     h2.text-center{
         color: rgb(39, 32, 68);
 display: block;
-font-family:"poppins","sans-serif";
+font-family:"Montserrat","sans-serif";
 font-size:16px;
 font-weight: 700;
 letter-spacing: 5px;
@@ -138,7 +140,7 @@ text-align:center;
     h3.text-center{
 color: rgb(39, 32, 68);
 display: block;
-font-family:"poppins","sans-serif";
+font-family:"Montserrat","sans-serif";
 font-size: 40px;
 font-weight: 700px;
 line-height: 60px;
@@ -147,7 +149,7 @@ padding-bottom: 50px;
     }
     div.grid.grid-3-columns{
 display: grid;
-font-family:"poppins","sans-serif";
+font-family:"Montserrat","sans-serif";
 grid-template-columns:1fr 1fr 1fr;
 grid-gap:30px;
     }
@@ -162,7 +164,7 @@ grid-gap:0;
 background-color:rgb(255, 255, 255);
 background-image:none;
 display:block;
-font-family:"poppins","sans-serif";
+font-family:"Montserrat","sans-serif";
 height: 770px;
 
     }
@@ -171,7 +173,7 @@ height: 770px;
         
 color:rgb(39, 32, 68);
 display:block;
-font-family:"poppins","sans-serif";
+font-family:"Montserrat","sans-serif";
 font-size:18px;
 font-style:normal;
 font-weight:400;
@@ -189,7 +191,7 @@ line-height:24px;
     }
     div.card-body{
         display: block;
-        font-family:"poppins","sans-serif";
+        font-family:"Montserrat","sans-serif";
         height: 386px;
         padding: 30px;
         width: 250px;
@@ -198,7 +200,7 @@ line-height:24px;
         
 color: rgb(39, 32, 68);
 display: block;
-font-family:"poppins","sans-serif";
+font-family:"Montserrat","sans-serif";
 font-size: 15px;
 font-weight: 700;
 line-height: 13px;
@@ -260,17 +262,18 @@ footer li{
         }
    .embed{
     aspect-ratio:16/9;
-    width:700px
+    width:600px
    }  
    div.card-body{
     display: block;
     font-family:"poppins","sans-serif";
     height:800;
     padding: 30px;
-    width:700px;
+    width:600px;
 }
 a.btn{
-    width:598px;
+    width:498px;
+    text-align: center;
 }
 div.card{
     background-color:rgb(255, 255, 255);
@@ -278,7 +281,7 @@ div.card{
     display:block;
     font-family:"poppins","sans-serif";
     height:880px;
-    width:700px;
+    width:600px;
  
         }
         div.card p{
@@ -291,7 +294,8 @@ div.card{
             font-weight:400;
             line-height:24px;
             opacity: 0.7;
-            width:598px
+            width:500px;
                 }
+                
 }
 
