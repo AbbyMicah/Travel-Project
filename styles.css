@@ -118,7 +118,8 @@ width:200px;
     section.secondary{
         background:rgb(248, 248, 248);
         background-size: cover;
-        padding:150px 0;
+        max-width: 1400px;
+        margin:0 auto;
     }
     .text-center{
         text-align:center;
@@ -165,7 +166,8 @@ background-color:rgb(255, 255, 255);
 background-image:none;
 display:block;
 font-family:"Montserrat","sans-serif";
-height: 770px;
+height: 800px;
+padding: 30px;
 
     }
 
@@ -192,8 +194,8 @@ line-height:24px;
     div.card-body{
         display: block;
         font-family:"Montserrat","sans-serif";
-        height: 386px;
-        padding: 30px;
+        height: 286px;
+        padding: 30px 0px;
         width: 250px;
     }
     h5{
